@@ -123,7 +123,6 @@ STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 
 LOGOUT_REDIRECT_URL = ''
 LOGIN_REDIRECT_URL = ''
-AUTH_USER_MODEL = ''
 
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 EMAIL_HOST = 'smtp.gmail.com'
