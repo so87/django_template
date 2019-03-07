@@ -7,7 +7,8 @@
 2. cd django_template
 3. ./create-app *insert your app name here*
 4. edit A_MainSite/urls.py and start-django.sh file to point to your app you just created
-5. start developing - do "docker-compose up" to start up all the containers and visit "localhost:8080" to view what you create
+5. add your new app to "installed apps" in settings.py
+6. start developing - do "docker-compose up" to start up all the containers and visit "localhost:8080" to view what you create
 
 * do "./django-shell.sh" to easily get a shell on your django machine. this is to run django commands while developing.
 * mozilla has a great django tutorial
